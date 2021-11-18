@@ -1,3 +1,14 @@
+# Personal notes:
+
+To get started do:
+npm install
+npm start
+
+before npm start doing "npm run build" might make sense if you're running the website and not just testing it. (Builds an optimized output.
+The website is then accessible under => localhost:3000 or wherever your url is.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
