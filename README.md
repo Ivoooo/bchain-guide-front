@@ -2,10 +2,12 @@
 
 To get started do:
 npm install
+
 npm start
 
-before npm start doing "npm run build" might make sense if you're running the website and not just testing it. (Builds an optimized output.
-The website is then accessible under => localhost:3000 or wherever your url is.
+
+Before npm start doing "npm run build" might make sense if you're running the website and not just testing it. (Builds an optimized output.)
+The website is then accessible under => localhost:3000 or wherever your IPbefore npm start doing "npm run build" might make is.
 
 
 
