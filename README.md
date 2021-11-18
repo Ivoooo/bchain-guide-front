@@ -1,9 +1,12 @@
 # Personal notes:
 
 To get started do:
-npm install
 
-npm start
+1. Download this repo and navigate to it ( cd .. )
+
+2. npm install
+
+3. npm start
 
 
 Before npm start doing "npm run build" might make sense if you're running the website and not just testing it. (Builds an optimized output.)
