@@ -3,15 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Home from './Home'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-//<App />
 ReactDOM.render(
   <React.StrictMode>
-      <Home />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
+
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
