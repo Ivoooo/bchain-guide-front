@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import Toast from "react-bootstrap/Toast";
-import {BButton} from "./BButton";
+import {AButton} from "./AButton";
 
 export const HelpField = ({ title="a", explanation="b" }) => {
     const [show, toggleShow] = useState(false);
@@ -11,7 +11,7 @@ export const HelpField = ({ title="a", explanation="b" }) => {
 
     return (
         <>
-            {!show && BButton("❓", positive)}
+            {!show && AButton("❓", positive)}
             <Toast show={show} onClose={() => toggleShow(false)}>
                 <Toast.Header>
                     <strong className="mr-auto">{title}</strong>

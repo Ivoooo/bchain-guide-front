@@ -1,18 +1,18 @@
 import React from "react";
 import {ProgressBar, Stack} from "react-bootstrap";
-import Button from "react-bootstrap/Button";
-import "../components/UZH_logo.gif"
-import {LanguageButton} from "../components/LanguageButton";
+import {HeaderButton} from "../components/HeaderButton";
 
 //requires Progress Bar percentage to be given as "now" props
-export class Header extends React.Component{
-    render() {
-        return <Stack className="Stack" direction="horizontal" gap={3}>
-            <Button variant="outline-secondary" onClick={() => this.props.goTo(this.props.now-1)}>Zurück</Button>
-            <Button variant="outline-secondary" onClick={() => this.props.goTo("Navi")}>Navi</Button>
-            <ProgressBar className="ProgressBar" now={Math.round(100 * this.props.now / this.props.max)}
-                         label={`${Math.round(100 * this.props.now / this.props.max)}%`} style={{ width: "70rem" }}/>
-            <LanguageButton/>
-        </Stack>;
-    }
+export const Header = ({goTo, now, max, language, changeLanguage}) => {
+    let curr = Math.round(100 * now / max)
+
+    return (
+        <Stack className="Stack" direction="horizontal" gap={3}>
+            <HeaderButton txt={"Navi"} onClick={() => goTo("Navi")} />
+            <HeaderButton txt={language === "DE" ? "Zurück" : "Back"} onClick={() => goTo(now-1)} />
+            <ProgressBar className="ProgressBar" now={curr}
+                         label={`${curr}%`} style={{ width: "70rem" }}/>
+            <HeaderButton txt={language} onClick={changeLanguage} />
+        </Stack>
+    )
 }

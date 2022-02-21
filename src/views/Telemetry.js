@@ -1,9 +1,6 @@
 import React from "react";
-import {AButtonWithCommentOnClick} from "../components/AButtonWithCommentOnClick";
-import {BButton} from "../components/BButton";
-import {AButton} from "../components/AButton";
-import {ATextArea} from "../components/ATextArea";
 import Container from "react-bootstrap/Container";
+import {AButton} from "../components/AButton";
 
 export class Telemetry extends React.Component{
     constructor(props) {
@@ -41,8 +38,8 @@ export class Telemetry extends React.Component{
             <div className="yes-no-grid-container" onClick={(e) => {
                 this.handleClick(e.target.value)
             }}>
-                {AButton("Personalisierte Daten teilen")}
-                {AButton("Nur grundlegende Daten teilen")}
+                <AButton txt={"Personalisierte Daten teilen"} />
+                <AButton txt={"Nur grundlegende Daten teilen"} />
             </div>
             {this.state.personalized && this.getPersonalized()}
             {this.state.anonymized && this.getAnonymized()}

@@ -1,5 +1,4 @@
 {
-  "Version": "1.0",
   "0": {
     "Title": {
       "English": "Introduction",
@@ -7,8 +6,8 @@
     },
     "Fragen": {
       "1": {
-        "Question": "Willkommmen beim Blockchainguide der Universität Zürich. Dieser Fragebogen ist ein Tool für staatliche und private Einrichtungen um zu evaluieren ob für einen bestimmten Anwendungsfall die Benützung einer Blochchain einen Vorteil bringen könnte. \n Der Blockchainguide basiert auf dem von der Universität und Kanton Zürich erarbeiteten Blockchain Guide. Eine kurze Zusammenfassung finden sie hier. Wir empfehlen die Zusammenfassung zu lesen für ein besseres Verständnis aber es nicht nicht essenziell.",
-        "Options": "Zur Umfrage",
+        "Question": "Willkommen beim Blockchainguide. Dieser Fragebogen ist ein Tool für Privatpersonen, staatliche und private Einrichtungen um zu evaluieren ob für einen bestimmten Anwendungsfall der Gebrauch einer Blockchain einen Vorteil bringen könnte. \r Um die Umfrage ausfüllen zu können ist wissen über die Blockchain von Vorteil aber nicht nötig. \n Diese Website wurde von der Universität Zürich entwickelt und basiert auf dem von der Universität und Kanton Zürich erarbeiteten Blockchain-Leitfaden.",
+        "Options": ["Leitfaden anschauen","Zur Umfrage"],
         "Type": "Front Page"
       }
     }
@@ -20,12 +19,12 @@
     },
     "Fragen": {
       "1": {
-        "Question": "Der Blockchainguide ist in 5 unterschiedlich lange Teile unterteilt und es braucht total ungefähr Minuten um ihn auszufüllen. Am Ende werden sie erfahren ob für ihren speziefischen Geschäftsfall den Gebrauch einer Blockchain Sinn ergeben würde. Zudem bekommen Sie Hinweise wie Sie als nächstes vorgehen könnten.",
+        "Question": "Der Blockchainguide ist in 5 unterschiedlich lange Teile unterteilt und es braucht total ungefähr Minuten um ihn auszufüllen. Am Ende werden sie erfahren ob für ihren spezifischen Geschäftsfall den Gebrauch einer Blockchain Sinn ergeben würde. Zudem bekommen Sie Hinweise wie Sie als nächstes vorgehen könnten.",
         "Options": "Weiter",
         "Type": "Front Page"
       },
       "1.5": {
-        "Question": "Bevor wir aber starten müssen Sie zuerst einen genauen Geschäftsfall bestimmen bei dem Sie prüfen möchten ob die Benützung einer Blockchain sie unterstützen könnte. \n Beispiele dazu wären: \n Kund*innen möchten sich bei uns anmelden und beziehen eine Leistung. \n Kund*innen sollen sich einfacher in öffnentliche Verzeichnisse eintragen können. \n Wir möchten die Zugriffsrechte auf Daten besser handhaben können.",
+        "Question": "Bevor wir aber starten müssen Sie zuerst einen genauen Geschäftsfall bestimmen bei dem Sie prüfen möchten ob der Gebrauch einer Blockchain sie unterstützen könnte. \n Beispiele dazu wären: \n Kund*innen möchten sich bei uns anmelden und beziehen eine Leistung. \n Kund*innen sollen sich einfacher in öffentliche Verzeichnisse eintragen können. \n Wir möchten die Zugriffsrechte auf Daten besser handhaben können.",
         "Options": "Weiter",
         "Type": "Text"
       },
@@ -78,7 +77,7 @@
       },
     "Fragen": {
       "1": {
-        "Question": "Den Geschäftsfall haben wir jetzt fertig vorgestellt und kategorisiert. Als nächstes müssen wir die organisatorische Perspektive prüfen. \n Welche Ziele verfolgen Sie? Sie können so viele Optinen anklicken wie Sie möchten.",
+        "Question": "Den Geschäftsfall haben wir jetzt fertig vorgestellt und kategorisiert. Als nächstes müssen wir die organisatorische Perspektive prüfen. \n Welche Ziele verfolgen Sie? Sie können so viele Optionen anklicken wie Sie möchten.",
         "Options": {
           "1": "Organisationsübergreifende Zusammenarbeit",
           "2": "Dezentrale Verwaltung von Daten und Prozessen",
@@ -182,7 +181,7 @@
     },
     "Fragen": {
       "1": {
-        "Question": "Bis jetzt ergibt die Benützung einer Blockchain Sinn für Sie. Um es defintiv zu entscheiden müssen nur noch ein paar wenige Fragen beantworten.",
+        "Question": "Bis jetzt ergibt die Benützung einer Blockchain Sinn für Sie. Für eine definitive Entscheidung müssen nur noch ein paar wenige Fragen beantworten.",
         "Options": "Weiter",
         "Type": "Front Page"
       },
@@ -195,7 +194,7 @@
         "Type": "Dual Choice"
       },
       "3": {
-        "Question": "Werden zwischen den beteligten Parteien Daten ausgetauscht?",
+        "Question": "Werden zwischen den Beteiligten Parteien Daten ausgetauscht?",
         "Options": {
           "1": "Ja",
           "2": "Nein"
@@ -203,7 +202,7 @@
         "Type": "Dual Choice"
       },
       "4": {
-        "Question": "Haben die beteiligten Parteien Interessenkoflikte oder Vertrauensprobleme?",
+        "Question": "Haben die beteiligten Parteien Interessenskonflikte oder Vertrauensprobleme?",
         "Options": {
           "1": "Ja",
           "2": "Nein"
@@ -227,7 +226,7 @@
         "Type": "Dual Choice"
       },
       "7": {
-        "Question": "Ist der Ablauf für die Abwicklung des Verfahrens weitgehen unverändert?",
+        "Question": "Ist der Ablauf für die Abwicklung des Verfahrens weitgehend unverändert?",
         "Options": {
           "1": "Ja",
           "2": "Nein"
@@ -235,7 +234,7 @@
         "Type": "Dual Choice"
       },
       "8": {
-        "Question": "Haben die beteligten Parteien Bedarf an einer nachvollziehbaren, unveränderlichen Datenspeicherung?",
+        "Question": "Haben die beteiligten Parteien Bedarf an einer nachvollziehbaren, unveränderlichen Datenspeicherung?",
         "Options": {
           "1": "Ja",
           "2": "Nein"
@@ -274,7 +273,7 @@
       "2": {
         "Question": "Alle Prozesse und Dienstleistungen sind digital konzipiert.",
         "Options": {
-          "1": "Wissenaufbau",
+          "1": "Wissensaufbau",
           "2": "Experimente",
           "3": "Pilotfähig",
           "4": "Integration & Roll-out"
@@ -284,7 +283,7 @@
       "3": {
         "Question": "Die Prozesse sind datengetrieben.",
         "Options": {
-          "1": "Wissenaufbau",
+          "1": "Wissensaufbau",
           "2": "Experimente",
           "3": "Pilotfähig",
           "4": "Integration & Roll-out"
@@ -294,7 +293,7 @@
       "4": {
         "Question": "Plattformdenken ist vorhanden.",
         "Options": {
-          "1": "Wissenaufbau",
+          "1": "Wissensaufbau",
           "2": "Experimente",
           "3": "Pilotfähig",
           "4": "Integration & Roll-out"
@@ -304,7 +303,7 @@
       "5": {
         "Question": "Innovationskultur im Team.",
         "Options": {
-          "1": "Wissenaufbau",
+          "1": "Wissensaufbau",
           "2": "Experimente",
           "3": "Pilotfähig",
           "4": "Integration & Roll-out"
@@ -314,7 +313,7 @@
       "6": {
         "Question": "Interdisziplinäre Kompetenzen.",
         "Options": {
-          "1": "Wissenaufbau",
+          "1": "Wissensaufbau",
           "2": "Experimente",
           "3": "Pilotfähig",
           "4": "Integration & Roll-out"
@@ -324,7 +323,7 @@
       "7": {
         "Question": "Bereitschaft für kollaborative prozess- und organisationsübergreifende Zusammenarbeit.",
         "Options": {
-          "1": "Wissenaufbau",
+          "1": "Wissensaufbau",
           "2": "Experimente",
           "3": "Pilotfähig",
           "4": "Integration & Roll-out"
@@ -334,7 +333,7 @@
       "8": {
         "Question": "Agile Entwicklungsmethoden werden angewandt.",
         "Options": {
-          "1": "Wissenaufbau",
+          "1": "Wissensaufbau",
           "2": "Experimente",
           "3": "Pilotfähig",
           "4": "Integration & Roll-out"
@@ -344,7 +343,7 @@
       "9": {
         "Question": "Identifikation der relevanten rechtlichen Bereiche.",
         "Options": {
-          "1": "Wissenaufbau",
+          "1": "Wissensaufbau",
           "2": "Experimente",
           "3": "Pilotfähig",
           "4": "Integration & Roll-out"
@@ -354,7 +353,7 @@
       "10": {
         "Question": "Einschätzung der relevanten rechtlichen Bereiche.",
         "Options": {
-          "1": "Wissenaufbau",
+          "1": "Wissensaufbau",
           "2": "Experimente",
           "3": "Pilotfähig",
           "4": "Integration & Roll-out"
@@ -390,7 +389,7 @@
     },
     "Fragen": {
       "1": {
-        "Question": "Den Geschäftsfall haben wir jetzt fertig vorgestellt und kategorisiert. Als nächstes müssen wir die organisatorische Perspektive prüfen. \n Welche Ziele verfolgen Sie? Sie können so viele Optinen anklicken wie Sie möchten.",
+        "Question": "Den Geschäftsfall haben wir jetzt fertig vorgestellt und kategorisiert. Als nächstes müssen wir die organisatorische Perspektive prüfen. \n Welche Ziele verfolgen Sie? Sie können so viele Option anklicken wie Sie möchten.",
         "Options": {
           "1": "Organisationsübergreifende Zusammenarbeit",
           "2": "Dezentrale Verwaltung von Daten und Prozessen",

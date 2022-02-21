@@ -1,24 +1,18 @@
 import React, {useState} from "react";
-import {BButton} from "./BButton";
+import {AButton} from "./AButton";
 import {ATextArea} from "./ATextArea";
-import {BTextArea} from "./BTextArea";
 
-export const AButtonWithCommentOnClick = ({ txt="c" }) => {
-    const [show, toggleShow] = useState(true);
+export const AButtonWithCommentOnClick = ({ txt="Placeholder AButtonWithCommentOnClick" }) => {
+    const [show, toggleShow] = useState(false);
 
     function change() {
         toggleShow(!show);
-        console.log(show);
     }
 
     return (
         <>
-            {BButton(txt, change, show)}
-            {!show && ATextArea()}
-
-            {/*{AButton(msg)}*/}
-            {/*{this.state.question1 && <ATextArea/>}*/}
-            {/*{BButton('123', 5)}*/}
+            <AButton txt={txt} onClick={change} isClicked={show} />
+            {show && ATextArea()}
         </>
     );
 };

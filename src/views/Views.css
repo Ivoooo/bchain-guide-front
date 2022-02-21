@@ -8,14 +8,14 @@
     padding-bottom: 7px;
 }
 
-.yes-no-grid-container {
+.two-option-grid-container {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 20px;
     padding: 10px;
 }
 
-.yes-no-grid-container > button {
+.two-option-grid-container-no-grid-container > button {
     padding: 15px 0;
 }
 
