@@ -63,7 +63,7 @@ function getNextStep([chapter, part]) {
 //returns the next question. Applies logic and skips questions given previous answers.
 function getNextQuestion([chapter, part], answer) {
     //[1,2]: check if a governmental entity at
-    if(chapter === 1 && part === 2) {
+    if(chapter === 1 && part === 3) {
         if(answer[1][2]["normalized"][0] !== 0) part += 1; //skipping question [1,3]
     }
 
