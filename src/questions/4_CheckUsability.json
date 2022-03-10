@@ -1,0 +1,172 @@
+{
+  "title": {
+    "en": "Check Usability of Blockchain",
+    "de": "Eignung der Blockchain prüfen"
+  },
+  "questionContainer": {
+    "1": {
+      "question": {
+        "de": "",
+        "en": ""
+      },
+      "option": {
+        "de": "Weiter",
+        "en": "Continue"
+      },
+      "type": "Overview"
+    },
+    "2": {
+      "question": {
+        "de": "Sind mehrere Parteien beteiligt?",
+        "en": "Are several parties involved?"
+      },
+      "option": {
+        "de": [
+          "Ja",
+          "Nein"
+        ],
+        "en": [
+          "Yes",
+          "No"
+        ]
+      },
+      "type": "Dual Choice"
+    },
+    "3": {
+      "question": {
+        "de": "Werden zwischen den beteiligten Parteien Daten ausgetauscht?",
+        "en": "Is data exchanged between the involved parties?"
+      },
+      "option": {
+        "de": [
+          "Ja",
+          "Nein"
+        ],
+        "en": [
+          "Yes",
+          "No"
+        ]
+      },
+      "type": "Dual Choice"
+    },
+    "4": {
+      "question": {
+        "de": "Haben die beteiligten Parteien Interessenskonflikte oder Vertrauensprobleme?",
+        "en": "Do the involved parties have conflicts of interest or trust issues?"
+      },
+      "option": {
+        "de": [
+          "Ja",
+          "Nein"
+        ],
+        "en": [
+          "Yes",
+          "No"
+        ]
+      },
+      "type": "Dual Choice"
+    },
+    "5": {
+      "question": {
+        "de": "Können oder wollen die beteiligten Parteien den Einbezug einer dritten Stelle vermeiden?",
+        "en": "Can or do the participating parties want to avoid involving a third party?"
+      },
+      "option": {
+        "de": [
+          "Ja",
+          "Nein"
+        ],
+        "en": [
+          "Yes",
+          "No"
+        ]
+      },
+      "type": "Dual Choice"
+    },
+    "6": {
+      "question": {
+        "de": "Haben die beteiligten Parteien unterschiedliche Berechtigungen bezüglich der Prozessdaten?",
+        "en": "Do the involved parties have different permissions regarding the process data?"
+      },
+      "option": {
+        "de": [
+          "Ja",
+          "Nein"
+        ],
+        "en": [
+          "Yes",
+          "No"
+        ]
+      },
+      "type": "Dual Choice"
+    },
+    "7": {
+      "question": {
+        "de": "Ist der Ablauf für die Abwicklung des Verfahrens weitgehend unverändert?",
+        "en": "Is the process for handling the procedure largely unchanged?"
+      },
+      "option": {
+        "de": [
+          "Ja",
+          "Nein"
+        ],
+        "en": [
+          "Yes",
+          "No"
+        ]
+      },
+      "type": "Dual Choice"
+    },
+    "8": {
+      "question": {
+        "de": "Haben die beteiligten Parteien Bedarf an einer nachvollziehbaren, unveränderlichen Datenspeicherung?",
+        "en": "Do the parties involved have a need for traceable, immutable data storage?"
+      },
+      "option": {
+        "de": [
+          "Ja",
+          "Nein"
+        ],
+        "en": [
+          "Yes",
+          "No"
+        ]
+      },
+      "type": "Dual Choice"
+    },
+    "9": {
+      "question": {
+        "de": "Sind die Transaktionen bzw. Daten öffentlich einsehbar?",
+        "en": "Are the transactions or data publicly viewable?"
+      },
+      "option": {
+        "de": [
+          "Ja",
+          "Nein"
+        ],
+        "en": [
+          "Yes",
+          "No"
+        ]
+      },
+      "type": "Dual Choice"
+    },
+    "10": {
+      "question": {
+        "de": "Darf jeder der beteiligten Parteien Daten eintragen?",
+        "en": "Is every involved party allowed to add data?"
+      },
+      "option": {
+        "de": [
+          "Ja",
+          "Nein"
+        ],
+        "en": [
+          "Yes",
+          "No"
+        ]
+      },
+      "type": "Dual Choice"
+    }
+  }
+}

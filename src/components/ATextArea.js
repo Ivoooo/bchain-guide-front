@@ -1,8 +1,16 @@
+import {FloatingLabel, Form} from "react-bootstrap";
 
-//todo decide on ATextArea vs BTextArea
-export function ATextArea(txt="Bitte erläutern Sie ihre Antwort.") {
+//https://react-bootstrap.github.io/forms/floating-labels/
+
+export function ATextArea({saveAnswer, prevAnswer=""}) {
     return (
-        <textarea className="form-control" id="exampleFormControlTextarea1" rows="2"
-                  placeholder={txt}/>
+        <FloatingLabel controlId="floatingTextarea" label="Text:">
+            <Form.Control
+                as="textarea"
+                style={{ height: '100px' }}
+                onChange={(e) => saveAnswer(e.target.value)}
+                defaultValue={prevAnswer}
+            />
+        </FloatingLabel>
     )
 }

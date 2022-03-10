@@ -1,0 +1,19 @@
+{
+  "title": {
+    "de": "Resultat",
+    "en": "Result"
+  },
+  "questionContainer": {
+    "1": {
+      "question": {
+        "de": " ",
+        "en": " "
+      },
+      "option": {
+        "de": "",
+        "en": ""
+      },
+      "type": "End"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": {
+    "en": "Organizational Perspective",
+    "de": "Organisatorische Perspektive"
+  },
+  "questionContainer": {
+    "1": {
+      "question": {
+        "de": "",
+        "en": ""
+      },
+      "option": {
+        "de": "Weiter",
+        "en": "Continue"
+      },
+      "type": "Overview"
+    },
+    "2": {
+      "question": {
+        "de": " Welche Ziele verfolgen Sie? Sie können so viele Optionen anklicken wie Sie möchten.",
+        "en": "What are your goals? You can click as many options as you like."
+      },
+      "option": {
+        "de": [
+          "Organisationsübergreifende Zusammenarbeit",
+          "Dezentrale Verwaltung von Daten und Prozessen",
+          "Verteilte Kontrolle",
+          "Verstärktes Vertrauen",
+          "Keine der oben genannten Optionen"
+        ],
+        "en": [
+          "Cross-organizational collaboration",
+          "Decentralized management of data and processes",
+          "Distributed control",
+          "Increased trust.",
+          "None of the above options"
+        ]
+      },
+      "type": "Multiple Choice or none"
+    }
+  }
+}

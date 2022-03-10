@@ -1,0 +1,92 @@
+{
+  "title": {
+    "en": "Data Collection",
+    "de": "Datensammlung"
+  },
+  "questionContainer": {
+    "1": {
+      "question": {
+        "de": "Die Universität Zürich würde gerne Daten sammeln. Die Daten werden zu Forschungszwecken gebraucht und um die Website zu verbessern. \r Persönliche Daten können gebraucht werden um ihnen persönlich Feedback zu geben falls Sie das wünschen. Es hilft uns auch Statistiken zu machen von welchen Personen unsere Website gebraucht wird. Persönliche Daten werden nie weitergegeben. \n Anonyme Daten werden immer gesammelt. Sie beinhalten ihre Antworten, ihr Resultat und die Zeit welche Sie pro Fragen hatten. Ihre Antworten könnten anonymisiert in Forschungsarbeiten publiziert werden. \n Alle Daten werden nach 10 Jahren gelöscht. \n Wollen Sie persönliche Daten teilen?",
+        "en": "The University of Zurich would like to collect data. The data is used for research purposes and to improve the website. \r Personal data can be used to give you personal feedback if you wish.  It also helps us to make statistics about which people use our website. Personal information is never shared. \n Anonymous data is always collected. It includes your answers, your score and the time you spent per question. Your answers may be published anonymously in research papers. \n All data will be deleted after 10 years. \n Do you want to share personal data?"
+      },
+      "option": {
+        "de": [
+          "Ja, persönliche Daten auch teilen",
+          "Nein, nur anonyme Daten teilen"
+        ],
+        "en": [
+          "Yes, share personal data as well",
+          "No, share anonymous data only"
+        ]
+      },
+      "type": "Dual Choice"
+    },
+    "4": {
+      "question": {
+        "de": "Was ist ihre E-Mail? (überspringen möglich)",
+        "en": "What is your e-mail? (skip possible)"
+      },
+      "option": {
+        "de": "Weiter",
+        "en": "Continue"
+      },
+      "type": "Text"
+    },
+    "3": {
+      "question": {
+        "de": "Für welches Geschäft arbeiten Sie und welche Funktion haben Sie? Kann auch oberflächlich beantwortet werden. (überspringen möglich)",
+        "en": "What business do you work for and what is your function? Can also be answered superficially. (skip possible)"
+      },
+      "option": {
+        "de": "Weiter",
+        "en": "Continue"
+      },
+      "type": "Text"
+    },
+    "5": {
+      "question": {
+        "de": "Wie ist ihr Name um Kontakt mit ihnen aufzunehmen? (überspringen möglich)",
+        "en": "What business do you work for? Can also be answered superficially. (skip possible)"
+      },
+      "option": {
+        "de": "Weiter",
+        "en": "Continue"
+      },
+      "type": "Text"
+    },
+    "2": {
+      "question": {
+        "de": "Haben Sie oder Ihr Team mit Blockchain-Projekten schon zuvor Erfahrungen gemacht?",
+        "en": "Have you or your team had any previous experience with blockchain projects?"
+      },
+      "option": {
+        "de": [
+          "Eine oder mehrere erfolgreiche Projekte mit Blockchains wurden durchgeführt",
+          "Prototypen wurden erstellt",
+          "Anwendungsfall für Blockchains wurde überprüft",
+          "Nein, es wurde noch nie zuvor mit Blockchains gearbeitet",
+          "Frage überspringen"
+        ],
+        "en": [
+          "One or more successful projects using blockchains have been carried out",
+          "Prototypes have been created",
+          "Use case for blockchains has been reviewed",
+          "No, no work has ever been done with blockchains before",
+          "Skip question"
+        ]
+      },
+      "type": "Single Choice"
+    },
+    "6": {
+      "question": {
+        "de": "Möchten Sie Feedback für uns hinterlassen?",
+        "en": "Do you want to leave any Feedback for us?"
+      },
+      "option": {
+        "de": "Weiter",
+        "en": "Continue"
+      },
+      "type": "Text"
+    }
+  }
+}

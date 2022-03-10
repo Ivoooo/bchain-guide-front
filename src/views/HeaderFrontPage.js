@@ -9,7 +9,7 @@ export const HeaderFrontPage = ({language, changeLanguage}) => {
             <Container>
                 <Navbar.Brand href="/">Blockchainguide</Navbar.Brand>
                 <Nav>
-                    <HeaderButton txt={language} onClick={changeLanguage} />
+                    <HeaderButton txt={language.toUpperCase()} onClick={changeLanguage} />
                 </Nav>
             </Container>
         </Navbar>

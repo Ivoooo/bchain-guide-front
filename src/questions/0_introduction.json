@@ -1,0 +1,25 @@
+{
+  "title": {
+    "en": "Introduction",
+    "de": "Einführung"
+  },
+  "questionContainer": {
+    "1": {
+      "question": {
+        "de": "Willkommen beim Blockchainguide. Dieser Fragebogen ist ein Tool um zu evaluieren ob für einen bestimmten Anwendungsfall der Gebrauch einer Blockchain einen Vorteil bringen könnte. Und falls ja wie sie weiter vorgehen könnten. \r Um die Umfrage ausfüllen zu können ist wissen über die Blockchain von Vorteil aber nicht nötig. \n Diese Website wurde von der Universität Zürich entwickelt und basiert auf dem von der Universität und Kanton Zürich erarbeiteten Blockchain-Leitfaden.",
+        "en": " Welcome to the Blockchainguide. This questionnaire is a tool to evaluate if for a specific use case the use of a Blockchain could bring an advantage. And if so, how you could proceed. \r To complete the survey, knowledge about blockchain is beneficial but not necessary. \n This website was developed by the University of Zurich and is based on the Blockchain Guide developed by the University and Canton of Zurich."
+      },
+      "option": {
+        "de": [
+          "Leitfaden anschauen",
+          "Zur Umfrage"
+        ],
+        "en": [
+          "See Blockchain Guide (German only)",
+          "To the questionnaire"
+        ]
+      },
+      "type": "Front Page"
+    }
+  }
+}
