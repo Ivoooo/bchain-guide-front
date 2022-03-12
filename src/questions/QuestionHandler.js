@@ -68,18 +68,23 @@ function getNextQuestion([chapter, part], answer) {
     }
 
     let a = getNextStep([chapter, part]);
-    //chapter 3: check if at least 1 thing is high relevance
+    //chapter 3: check if at least 1 thing is high or medium relevance
     if(a[0] === 4 && a[1] === 1) {
         console.log(answer);
         for(let i = 2; i <= part; ++i) {
-            if(answer[chapter][i]["normalized"][0] === 0) return [4,1];
+            if(answer[chapter][i]["normalized"][0] === 0 || answer[chapter][i]["normalized"][0] === 1) return [4,1];
         }
         return [7,1];
     }
 
-    //chapter 4: check if answer was yes
-    if(chapter === 4 && part > 1) {
+    //chapter 4: check if answer was no
+    if(chapter === 4 && part > 1 && part <= 8) {
         if(answer[chapter][part]["normalized"][0] !== 0) return [7,1];
+    }
+
+    //chapter 4: check if [4,9] was answered as no => skips to chapter 5 as BC type decided
+    if(chapter === 4 && part === 9) {
+        if(answer[chapter][part]["normalized"][0] === 1) return [5,1];
     }
 
     //check if telemetry questions should be asked

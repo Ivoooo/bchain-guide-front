@@ -2,10 +2,15 @@ import React from "react";
 import {QuestionHandler} from "../questions/QuestionHandler";
 import {Form} from "react-bootstrap";
 
-export const FinalPage = ({answer, language}) => {
-    const q = QuestionHandler.getQuestionList();
-    const style = {maxWidth: 1000, margin:"auto", padding: "30px"}
-    const lastQuestion = QuestionHandler.getLastStep([7,1], answer);
+export const FinalPage = ({answer, language, titles}) => {
+    let q = [];
+    let tmp = [0,1];
+    while(tmp[0] !== 7 || tmp[1] !== 1) {
+        if(answer[tmp[0]][tmp[1]] === undefined) break; //if answer has never been answered
+
+        q.push(tmp);
+        tmp = QuestionHandler.getNextQuestion(tmp, answer);
+    }
 
     function getPrevAnswer(position) {
         if(answer[position[0]][position[1]] === undefined) return [];
@@ -18,10 +23,15 @@ export const FinalPage = ({answer, language}) => {
         return answer[position[0]][position[1]]["notes"];
     }
 
+    function getFeedback(lastPosition) {
+        //todo
+    }
+
+    const style = {maxWidth: 1000, margin:"auto", padding: "30px"}
     return (
         <>
             <h3 className="text-center" key={"Title"}>{"You failed successfully! (to be implemented)"}</h3>
-            <h3 className="text-center" key={"Title"}>{"The last question you answered was " + lastQuestion}</h3>
+            <h3 className="text-center" key={"Title"}>{"The last question you answered was " + q[q.length-1]}</h3>
 
             <h3 className="text-center" style={{marginTop: "60px", marginBottom: "60px", marginLeft: "auto", marginRight:"auto"}} key={"Title"}>{"___________________________________"}</h3>
             <h3 className="text-center" key={"Title"}>{language === "de" ? "Liste an beantworteten Fragen:"
@@ -29,6 +39,15 @@ export const FinalPage = ({answer, language}) => {
             {q.map(qs => {
                 const key = qs[0].toString() + "." + qs[1].toString();
                 const q = QuestionHandler.getQuestion(qs);
+
+                if(q["type"] === "Overview") {
+                    return (
+                        <div key={key} style={style}>
+                            <h2 className="text-center" key={key}>{titles[qs[0]] + ":"}</h2>
+                        </div>
+                    )
+                }
+
                 if(q["type"] === "Single Choice" || q["type"] === "Dual Choice") {
                     return (
                         <div key={key} style={style}>
@@ -74,8 +93,7 @@ export const FinalPage = ({answer, language}) => {
                 }
 
                 return null;
-            }
-            )}
+            })}
         </>
     )
 }
