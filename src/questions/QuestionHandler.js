@@ -88,8 +88,8 @@ function getNextQuestion([chapter, part], answer) {
     }
 
     //check if telemetry questions should be asked
-    if(chapter === 6 && part === 1) {
-        if(answer[chapter][part]["normalized"][0] !== 0) return [6,6];
+    if(chapter === 6 && part === 2) {
+        if(answer[chapter][part]["normalized"][0] !== 0) return [6,7];
     }
 
     //general case
