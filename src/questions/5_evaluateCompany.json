@@ -17,8 +17,8 @@
     },
     "2": {
       "question": {
-        "de": "Geschäftsprozesse \n Alle Prozesse und Dienstleistungen sind digital konzipiert.",
-        "en": "Business processes \n All processes and services are designed digitally."
+        "de": "Geschäftsprozesse: \n Alle Prozesse und Dienstleistungen sind digital konzipiert.",
+        "en": "Business processes: \n All processes and services are designed digitally."
       },
       "option": {
         "de": [
@@ -38,8 +38,8 @@
     },
     "3": {
       "question": {
-        "de": "Geschäftsprozesse \n Die Prozesse sind datengetrieben.",
-        "en": "Business processes \n The processes are data-driven."
+        "de": "Geschäftsprozesse: \n Die Prozesse sind datengetrieben.",
+        "en": "Business processes: \n The processes are data-driven."
       },
       "option": {
         "de": [
@@ -59,8 +59,8 @@
     },
     "4": {
       "question": {
-        "de": "Geschäftsprozesse \n Plattformdenken ist vorhanden.",
-        "en": "Business processes \n Platform thinking is existent."
+        "de": "Geschäftsprozesse: \n Plattformdenken ist vorhanden.",
+        "en": "Business processes: \n Platform thinking is existent."
       },
       "option": {
         "de": [
@@ -80,8 +80,8 @@
     },
     "5": {
       "question": {
-        "de": "Organisation \n Innovationskultur im Team.",
-        "en": "Organization \n Innovation culture in the team."
+        "de": "Organisation: \n Innovationskultur im Team.",
+        "en": "Organization: \n Innovation culture in the team."
       },
       "option": {
         "de": [
@@ -101,8 +101,8 @@
     },
     "6": {
       "question": {
-        "de": "Organisation \n Interdisziplinäre Kompetenzen.",
-        "en": "Organization \n Interdisciplinary competences."
+        "de": "Organisation: \n Interdisziplinäre Kompetenzen.",
+        "en": "Organization: \n Interdisciplinary competences."
       },
       "option": {
         "de": [
@@ -122,8 +122,8 @@
     },
     "7": {
       "question": {
-        "de": "Organisation \n Bereitschaft für kollaborative prozess- und organisationsübergreifende Zusammenarbeit.",
-        "en": "Organization \n Willingness to work collaboratively across processes and organizations."
+        "de": "Organisation: \n Bereitschaft für kollaborative prozess- und organisationsübergreifende Zusammenarbeit.",
+        "en": "Organization: \n Willingness to work collaboratively across processes and organizations."
       },
       "option": {
         "de": [
@@ -143,8 +143,8 @@
     },
     "8": {
       "question": {
-        "de": "Organisation \n Agile Entwicklungsmethoden werden angewandt.",
-        "en": "Organization \n Agile development methods are applied."
+        "de": "Organisation: \n Agile Entwicklungsmethoden werden angewandt.",
+        "en": "Organization: \n Agile development methods are applied."
       },
       "option": {
         "de": [
@@ -164,8 +164,8 @@
     },
     "9": {
       "question": {
-        "de": "Rechtliches \n Identifikation der relevanten rechtlichen Bereiche.",
-        "en": "Legal \n Identification of the relevant legal areas."
+        "de": "Rechtliches: \n Identifikation der relevanten rechtlichen Bereiche.",
+        "en": "Legal: \n Identification of the relevant legal areas."
       },
       "option": {
         "de": [
@@ -185,8 +185,8 @@
     },
     "10": {
       "question": {
-        "de": "Rechtliches \n Einschätzung der relevanten rechtlichen Bereiche.",
-        "en": "Legal \n Assessment of the relevant legal areas."
+        "de": "Rechtliches: \n Einschätzung der relevanten rechtlichen Bereiche.",
+        "en": "Legal: \n Assessment of the relevant legal areas."
       },
       "option": {
         "de": [

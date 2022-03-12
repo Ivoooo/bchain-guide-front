@@ -6,7 +6,7 @@
   "questionContainer": {
     "1": {
       "question": {
-        "de": "Die Universität Zürich würde gerne Daten sammeln. Die Daten werden zu Forschungszwecken gebraucht und um die Website zu verbessern. \r Persönliche Daten können gebraucht werden um ihnen persönlich Feedback zu geben falls Sie das wünschen. Es hilft uns auch Statistiken zu machen von welchen Personen unsere Website gebraucht wird. Persönliche Daten werden nie weitergegeben. \n Anonyme Daten werden immer gesammelt. Sie beinhalten ihre Antworten, ihr Resultat und die Zeit welche Sie pro Fragen hatten. Ihre Antworten könnten anonymisiert in Forschungsarbeiten publiziert werden. \n Alle Daten werden nach 10 Jahren gelöscht. \n Wollen Sie persönliche Daten teilen?",
+        "de": "Die Universität Zürich würde gerne Ihre Daten sammeln. Die Daten werden für Forschungszwecke und zur Verbesserung der Website verwendet. \r Persönliche Daten können verwendet werden, um Ihnen auf Wunsch ein persönliches Feedback zukommen zu lassen. Des Weiteren werden die Daten für die Erstellung von Statistiken benötigt, um zu Evaluieren welche Personen und Geschäfte gebrauch von dieser Website macht. Ihre persönliche Daten werden nicht an Dritte weitergegeben.  \n Anonymisierte Daten werden hingegen ständig gesammelt. Diese beinhalten Ihre Antworten, Resultate und die Zeit, für welche Sie pro Frage benötigt hatten. Ihre Antworten könnten anonymisiert in Forschungsarbeiten publiziert werden. \n Sämtliche gesammelte Daten werden nach 10 Jahren wieder gelöscht. \n Wollen Sie persönliche Daten teilen?",
         "en": "The University of Zurich would like to collect data. The data is used for research purposes and to improve the website. \r Personal data can be used to give you personal feedback if you wish.  It also helps us to make statistics about which people use our website. Personal information is never shared. \n Anonymous data is always collected. It includes your answers, your score and the time you spent per question. Your answers may be published anonymously in research papers. \n All data will be deleted after 10 years. \n Do you want to share personal data?"
       },
       "option": {
@@ -23,8 +23,8 @@
     },
     "4": {
       "question": {
-        "de": "Was ist ihre E-Mail? (überspringen möglich)",
-        "en": "What is your e-mail? (skip possible)"
+        "de": "Was ist Ihre E-Mail Adresse? Diese Information wird benötigt um Kontakt mit Ihnen aufnehmen zu können falls Sie das erwünschen. Zusätzlich hilft es uns zu sehen, von welchen Personen und Geschäfte diese Website gebraucht wird. (überspringen möglich)",
+        "en": "What is your e-mail? This information will be used to contact you if you so wish. Additionally, it helps us see which people and businesses are using this website. (skip possible)"
       },
       "option": {
         "de": "Weiter",
@@ -34,8 +34,8 @@
     },
     "3": {
       "question": {
-        "de": "Für welches Geschäft arbeiten Sie und welche Funktion haben Sie? Kann auch oberflächlich beantwortet werden. (überspringen möglich)",
-        "en": "What business do you work for and what is your function? Can also be answered superficially. (skip possible)"
+        "de": "Für welches Geschäft arbeiten Sie und welche Funktion haben Sie? \n Das beantworten dieser Frage hilft und zu evaluieren von welchen Personen diese Website genutzt wird und sie für die entsprechende Zielgruppe zu verbessern. Die Frage kann auch oberflächlich beantwortet werden. (überspringen möglich)",
+        "en": "What business do you work for and what is your function? \n Answering this question helps to evaluate who is using the website and to improve it for the corresponding target group. The question can also be answered superficially. (skip possible)"
       },
       "option": {
         "de": "Weiter",
@@ -45,8 +45,8 @@
     },
     "5": {
       "question": {
-        "de": "Wie ist ihr Name um Kontakt mit ihnen aufzunehmen? (überspringen möglich)",
-        "en": "What business do you work for? Can also be answered superficially. (skip possible)"
+        "de": "Was ist Ihr Name? Diese Information wird benötigt um Kontakt mit Ihnen aufnehmen zu können falls Sie das erwünschen. (überspringen möglich)",
+        "en": "What is your name? This information will be used to contact you if you so wish. (skip possible)"
       },
       "option": {
         "de": "Weiter",
@@ -79,8 +79,8 @@
     },
     "6": {
       "question": {
-        "de": "Möchten Sie Feedback für uns hinterlassen?",
-        "en": "Do you want to leave any Feedback for us?"
+        "de": "Hier können Sie ein Feedback für uns hinterlassen. Alles Feedback ist erwünscht. Was ihnen gefallen hat, mit was Sie Probleme hatten und wie wir die Website verbessern könnten.",
+        "en": "Here you can leave feedback for us. All feedback is welcome. What you liked, what you had problems with and how we could improve the website."
       },
       "option": {
         "de": "Weiter",

@@ -6,7 +6,7 @@
     "questionContainer": {
       "1": {
         "question": {
-          "de": "Der Blockchainguide ist in 7 unterschiedlich lange Teile unterteilt und es braucht total ungefähr 10 Minuten um ihn auszufüllen.",
+          "de": "Der Blockchainguide ist in 7 unterschiedlich lange Teile unterteilt, die einen Zeitumfang von ungefähr 10 Minuten benötigen für die vollständige Ausfüllung.",
           "en": "The blockchain guide is divided into 7 parts of different lengths and it takes a total of about 10 minutes to complete it."
         },
         "option": {
@@ -17,7 +17,7 @@
       },
       "3": {
         "question": {
-          "de": "Bevor wir starten müssen Sie zuerst einen genauen Geschäftsfall bestimmen, bei dem Sie prüfen möchten ob der Gebrauch einer Blockchain sie unterstützen könnte. \n Beispiele dazu wären: \n Kund*innen möchten sich bei uns anmelden und beziehen eine Leistung. \n Kund*innen sollen sich einfacher in öffentliche Verzeichnisse eintragen können. \n Wir möchten die Zugriffsrechte auf Daten besser handhaben können.",
+          "de": "Bevor wir starten, müssen Sie zuerst einen genauen Geschäftsfall bestimmen, um zu überprüfen, ob der Gebrauch einer Blockchain für Sie von Unterstützung sein kann. \n Beispiele dazu wären: \n Kund*innen möchten sich bei uns anmelden und beziehen eine Leistung. \n Kund*innen sollen sich einfacher in öffentliche Verzeichnisse eintragen können. \n Wir möchten die Zugriffsrechte auf Daten besser handhaben können.",
           "en": "First, you need to determine a business case where you would like to examine whether the use of a blockchain could support it. \n Examples would be: \n Customers want to sign up and a specific service. \n We want to make it easier for customers to sign up for public directories. \n We would like to be able to better manage access rights to our data."
         },
         "option": {
