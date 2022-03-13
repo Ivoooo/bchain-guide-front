@@ -34,8 +34,8 @@
     },
     "5": {
       "question": {
-        "de": "Was ist Ihre E-Mail Adresse? Diese Information wird benötigt um Kontakt mit Ihnen aufnehmen zu können falls Sie das erwünschen. Zusätzlich hilft es uns zu sehen, von welchen Personen und Geschäfte diese Website gebraucht wird. (überspringen möglich)",
-        "en": "What is your e-mail? This information will be used to contact you if you so wish. Additionally, it helps us see which people and businesses are using this website. (skip possible)"
+        "de": "Was ist Ihre E-Mail Adresse? \n Diese Information wird benötigt um Kontakt mit Ihnen aufnehmen zu können falls Sie das erwünschen. Zusätzlich hilft es uns zu sehen, von welchen Personen und Geschäfte diese Website gebraucht wird. (überspringen möglich)",
+        "en": "What is your e-mail? \n This information will be used to contact you if you so wish. Additionally, it helps us see which people and businesses are using this website. (skip possible)"
       },
       "option": {
         "de": "Weiter",
@@ -56,8 +56,8 @@
     },
     "6": {
       "question": {
-        "de": "Was ist Ihr Name? Diese Information wird benötigt um Kontakt mit Ihnen aufnehmen zu können falls Sie das erwünschen. (überspringen möglich)",
-        "en": "What is your name? This information will be used to contact you if you so wish. (skip possible)"
+        "de": "Was ist Ihr Name? \n Diese Information wird benötigt um Kontakt mit Ihnen aufnehmen zu können falls Sie das erwünschen. (überspringen möglich)",
+        "en": "What is your name? \n This information will be used to contact you if you so wish. (skip possible)"
       },
       "option": {
         "de": "Weiter",

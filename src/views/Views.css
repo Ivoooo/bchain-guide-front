@@ -31,3 +31,16 @@
     max-width: 800px;
     margin: auto;
 }
+
+.text-success{
+    text-align: center
+}
+
+.text-primary{
+    text-align: center
+}
+
+.sub-text {
+    text-align: center;
+    color: #555555;
+}

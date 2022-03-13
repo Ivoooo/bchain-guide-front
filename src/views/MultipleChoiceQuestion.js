@@ -93,7 +93,7 @@ export const MultipleChoiceQuestion = ({language, question, option, goNext, prev
         <div style={{float: "right"}}>
             {incorrect ? <h4 className="text-center">{language === "de" ? "Die letzte Option und alle anderes sind exklusiv. Bitte ändern sie ihre Auswahl."
                     : "The last option and all others are mutually exclusive. Please change your answer"}</h4>
-                : <AButton txt={"Next"} onClick={handleNext} disabled={disabled} key={"Next"}/>
+                : <AButton txt={language === "de" ? "Weiter" : "Next"} onClick={handleNext} disabled={disabled} key={"Next"}/>
             }
         </div>
     </>

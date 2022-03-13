@@ -19,7 +19,7 @@ export const NotePage = ({question, option, handleClick, prevNote=""}) => {
         <>
             <h2 className="text-center">{q}</h2>
             {question.map(q =>
-                <h4 className="text-center" key={q}>{q}</h4>
+                <h4 className="sub-text" key={q}>{q}</h4>
             )}
             <div style={{maxWidth: 800, margin:"auto"}}>
                 <ATextArea txt={"Bitte geben Sie hier Ihren Geschäftsfall an."} saveAnswer={setAnswer} prevAnswer={prevNote} key={q}/>

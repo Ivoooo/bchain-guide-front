@@ -18,7 +18,7 @@ export const FrontPage = ({question, option, handleClick, refer=false}) => {
                 <h2 className="text-center" key={qs}>{qs}</h2>
             )}
             {p.map(qs =>
-                <h3 className="text-center" key={qs}>{qs}</h3>
+                <h3 className="sub-text" key={qs}>{qs}</h3>
             )}
             <a style={{float: "left", marginTop:"20px"}} href='https://www.zh.ch/content/dam/zhweb/bilder-dokumente/themen/politik-staat/kanton/digitale-verwaltung-und-e-government/projekte_digitale_transformation/blockchain_leitfaden_final.pdf' target="_blank" rel="noreferrer">
                 { refer && <AButton txt={option[0]}/> }

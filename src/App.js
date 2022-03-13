@@ -119,8 +119,8 @@ const App = () => {
             />
         }
         <div className="p-3">
-            <h1 className="header">{titles[position[0]]}</h1>
-            <div className="p-5 mb-4 white rounded-3">
+            <h1 className="header">{navi ? "Navigation" : titles[position[0]]}</h1>
+            <div className="p-3 mb-4 rounded-3">
                 {navi ?
                     <NaviPage answer={answer}
                               titles={titles}

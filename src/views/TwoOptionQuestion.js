@@ -18,7 +18,7 @@ export const TwoOptionQuestion = ({question, option, handleClick, prevAnswer}) =
                 <h2 className="text-center" key={qs}>{qs}</h2>
             )}
             {p.map(qs =>
-                <h3 className="text-center" key={qs}>{qs}</h3>
+                <h3 className="sub-text" key={qs}>{qs}</h3>
             )}
 
             <div className="two-option-grid-container">
