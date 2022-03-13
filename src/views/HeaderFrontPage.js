@@ -7,7 +7,7 @@ import {HeaderButton} from "../components/HeaderButton";
 export const HeaderFrontPage = ({language, changeLanguage}) => {
     return <Navbar>
             <Container>
-                <Navbar.Brand href="/">Blockchainguide</Navbar.Brand>
+                <Navbar.Brand>Blockchainguide</Navbar.Brand>
                 <Nav>
                     <HeaderButton txt={language.toUpperCase()} onClick={changeLanguage} />
                 </Nav>
